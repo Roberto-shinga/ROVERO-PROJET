@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #ddd1d1;
+    padding: 2px 6%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo11 h1{
+    color: black;
+    text-transform:uppercase ;
+
+}
+.logo11 span{
+    color: orange;
+    font-weight: bold;
+}
+.logo12 ul{
+    display: flex;
+    
+}
+.logo12 ul li a{
+    
+    position: relative;
+    margin: 12px;
+    text-transform: uppercase;
+    top: 12px;
+    color: #000000
+}
+.logo123 a{
+    text-transform: uppercase;
+    position: relative;
+    top:12px;
+
+}
+.logo123 a:hover{
+    color: orange;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 2px solid #356bff;
+}
